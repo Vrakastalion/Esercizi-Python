@@ -9,9 +9,9 @@ PRIMA LEZIONE:
 KEY: String interpolation, IF...ELIF...ELSE, Ciclo WHILE, Ciclo FOR
 
 Si richiede di realizzare un programma che segua l'algoritmo di Ahmes (1650 a.C.) per la moltiplicazione. Gli egizi volevano ragionare in seno alla semplice moltiplicazione per 2 e la divisione per 2 oltre che alle somme di qualsiasi genere e in questo algoritmo spiegano come poter fare la moltiplicazione di due numeri avendo in mente solo queste succitate possibilità. Si tratta di seguire le tracce a noi lasciate, ovvero il programma riceve in input due numeri interi a, b e procede come segue:
-  REGOLA DI STOP  - Se a=1 allora a * b = b
-  REGOLA PARI     - Se a è pari allora a * b = (a / 2) * (2 * b)
-  REGOLA DISPARI  - Se a è dispari allora a * b = (a-1) * b + b
+  - Se a=1 allora a * b = b (REGOLA DI STOP)
+  - Se a è pari allora a * b = (a / 2) * (2 * b) (REGOLA PARI)
+  - Se a è dispari allora a * b = (a-1) * b + b (REGOLA DISPARI)
 L'algoritmo procede con l'applicazione delle regole fino al gaggiungimento della regola di stop. Si richiede una visualizzazione del procedimento seguito dall'algoritmo.
 
 2) Calcolo MCM, mcd
