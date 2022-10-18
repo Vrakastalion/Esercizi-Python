@@ -23,6 +23,7 @@ Si richiede di calcolare, dati due numeri interi positivi x, y , il loro Massimo
   - Sia a_i = b_i * q_i + r_i dove a_0 = max(x,y) e b_0 = min(x,y) e r_i è tale che 0<= r_i <=b_i
   - a_{i+1} = b_i e b_{i+1} = r_i
   - Si prosegue sino a che r_i = 0 
+
 Si richiede una visualizzazione del procedimento seguito dall'algoritmo.
 
 3) Torre di Hanoi
