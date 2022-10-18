@@ -12,6 +12,7 @@ Si richiede di realizzare un programma che segua l'algoritmo di Ahmes (1650 a.C.
   - Se a=1 allora a * b = b (REGOLA DI STOP)
   - Se a è pari allora a * b = (a / 2) * (2 * b) (REGOLA PARI)
   - Se a è dispari allora a * b = (a-1) * b + b (REGOLA DISPARI)
+
 L'algoritmo procede con l'applicazione delle regole fino al gaggiungimento della regola di stop. Si richiede una visualizzazione del procedimento seguito dall'algoritmo.
 
 2) Calcolo MCM, mcd
