@@ -28,7 +28,7 @@ Si richiede una visualizzazione del procedimento seguito dall'algoritmo.
 
 **3) Torre di Hanoi**
 
-*KEY: funzione ricorsiva, azione di gruppo simmetrico $S_n$*
+*KEY: funzione ricorsiva, azione di gruppo simmetrico* $S_n$
 
 Si richiede di gestire e visualizzare il gioco della [Torre di Hanoi](https://it.wikipedia.org/wiki/Torre_di_Hanoi) con d-dischi mediante un algoritmo strutturato
 
