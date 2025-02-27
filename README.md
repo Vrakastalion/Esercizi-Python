@@ -21,7 +21,7 @@ L'algoritmo procede con l'applicazione delle regole fino al gaggiungimento della
 
 Si richiede di calcolare, dati due numeri interi positivi $x, y$ , il loro Massimo Comune Divisore (MCD) e il loro minimo comune multiplo (mcm) seguendo l'algoritmo di Euclide, ovvero:
   - Sia $a_i = b_i * q_i + r_i$ dove $a_0 = max(x,y)$ e $b_0 = min(x,y)$ e $r_i$ è tale che $0 \leq r_i \leq_i$
-  - $a_{i+1} = b_i e b_{i+1} = r_i$
+  - $a_{i+1} = b_i$ e $b_{i+1} = r_i$
   - Si prosegue sino a che $r_i = 0$ 
 
 Si richiede una visualizzazione del procedimento seguito dall'algoritmo.
@@ -57,28 +57,38 @@ $$\begin{cases}
 x_0 = 1
 \end{cases}$$
 
+Dopo aver calcolaro il valore float, proporre un metodo per visualizzare il risultato in formato frazionario.
+
 **7) Zeri di un polinomio**
 
 *KEY: approssimazione, continuità*
 
+Si richiede uno script per il calcolo degli zeri di un polinomio mediante il [metodo di bisezione](https://it.wikipedia.org/wiki/Metodo_della_bisezione). Il polinomio deve essere inserito dall'utente e può essere un polinomio al massimo di grado 5. L'errore massimo da commettere deve essere inserito dall'utente.
+
+Proporre poi uno script per il [metodo di Newton](https://it.wikipedia.org/wiki/Metodo_delle_tangenti) e confrontare il tempo ed i passaggi necessari per trovare le soluzioni.
+
 **8) Metodo Moltecarlo**
 
-*KEY: statistica
+*KEY: statistica*
 
-**9) Zoo**
+Proporre uno script per giocare a [battaglia navale](https://it.wikipedia.org/wiki/Battaglia_navale_(gioco)) usando il principio che sottostà al [metodo Montecarlo](https://it.wikipedia.org/wiki/Metodo_Monte_Carlo) tra un giocatore umano ed un agente programmato. Proporre una battaglia tra due agenti che usano il medesimo metodo. E' possibile determinare quale sia la strategia di posizionamento migliore? 
 
-*KEY: Classi, metodi e attributi
-
-**10) Conto corrente**
-
-*KEY: Classi, metodi, attributi, metodi statici, properties
 
 ## Progetti ed esercitazioni complesse
 
 **1) Starfire**
 
+Scrivere uno script per gestire efficacemente la creazione dell'universo per il gioco [Galactic Starfire](https://boardgamegeek.com/boardgame/7539/galactic-starfire) -originale gioco del 1979- seguendo il regolamento.
+
 **2) Briscola**
+
+Scrivere uno script completo per la gestione del gioco della [Briscola](https://it.wikipedia.org/wiki/Briscola). La partita si svolge tra un giocatore umano ed un agente programmato. Si deve proporre uno script per ciascuno degli agenti:
+- Agente S: avendo 3 carte in mano, sceglie a caso tra le 3
+- Agente G: conosce tutto del gioco (disposizione del mazzo, carte in mano sia sue che dell'avversario)
+- Agente M: segue una strategia preimpostata e determinata (da costruire, ma che sia una via di mezzo tra S e G)
+
+E' possibile proporre una policy di agenti (chiamiamola Mx) che scali la strategia da S a G? Come? 
 
 **3) HEX**
 
-
+Scrivere uno script completo per la gestione del gioco [HEX](https://it.wikipedia.org/wiki/Hex_(gioco)). La partita si svolge tra un giocatore umano ed un agente programmato. Si deve proporre uno script per un agente che sia scalato in 5 possibili difficoltà dove 1 è la difficoltà più semplice e 5 la più difficile.
