@@ -54,7 +54,7 @@ Seguendo l'esempio babilonese scrivere un programma che richieda un errore massi
 
 $$\begin{cases}
 x_0 = 1 \\ 
-\displaystyle x_n = \frac{1}{2}*(x_{n-1}+ \frac{\alpha}{x_{x-1}) 
+\displaystyle x_n = \frac{1}{2}*(x_{n-1}+ \frac{\alpha}{x_{x-1}}) 
 \end{cases}$$
 
 **7) Zeri di un polinomio**
