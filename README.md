@@ -51,8 +51,9 @@ Scrivere un programma che scriva il risultato preciso di una potenza $a^b$ dove 
 *KEY: funzioni ricorsive, approssimazione, distanza, vicinanza, numeri in formato frazionario*
 
 Seguendo l'esempio babilonese scrivere un programma che richieda un errore massimo $\epsilon$ e un numero intero $\alpha$ e poi ne calcoli la radice quadrata con un errore minore dell'errore massimo inserito. L'algoritmo da seguire è:
+
 $\begin{cases}
-x_0 = 1\\ 
+x_0 = 1 \\ 
 \displaystyle x_n = \frac{1}{2}*(x_{n-1}+ \frac{\alpha}{x_{x-1}) 
 \end{cases}$
 
